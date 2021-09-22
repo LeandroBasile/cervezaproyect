@@ -1,0 +1,184 @@
+/* media query */
+
+@media screen and (max-width:1000px){
+    .navegador{
+       ul{
+           li{
+               a{
+                   font-size: 2rem;
+               }
+           }
+       }
+    }
+}
+@media screen and (max-width:980px){
+    .colorDeNosotros{
+        text-align: center;
+    }
+    #cervezas {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:900) {
+    .navegador {
+        ul{
+            gap: 1rem;
+            li{
+                gap: 1rem;
+                a{
+                    padding: 0;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:768px){
+    .cabecera{
+        .navegador {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            width: auto;
+            align-items: center;
+            justify-items: center;
+            ul {
+                list-style: none;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                li{
+                    padding:0;
+                    a{
+                        display: block;
+                        color: white;
+                        text-decoration: none;
+                        transition: ease-in 0.5s;
+                        font-size: 3rem;
+                        font-weight: bold;                    
+                    }
+                    a:hover{
+                        color: black;
+                        border-bottom: 2px ridge black;                    
+                    }                
+                }
+            }
+        }
+    }
+    .colorDeNosotros{
+        text-align: center;
+    }
+    .colorDeNosotros p {
+        font-size: 1rem;
+        line-height: 1.8rem;
+    }
+    .navegador ul {
+        flex-direction: column;
+    }
+
+    .hsDeAtencion {
+        .caja{
+            width: 100%;
+        }
+    }
+    .cervezas__menu {
+        display: flex;
+        flex-direction: column;
+    }
+    .shop{
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        font-size: 10px;
+        
+        .datosComprador {
+            border-right:0;
+            border-bottom: 1px solid black; 
+        }
+    }
+    #contactoPag {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        font-size: 10px;        
+    }
+    #contactoPag > .parte1Consulta {
+        
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    @for $i from 1 through 8 {
+    .cerveza#{$i}{        
+        display: flex;
+        flex-direction: column;
+        }
+    }
+}
+ 
+@media screen and (max-width:600px) {
+    .cabecera{
+        .navegador{
+            ul{
+                padding: 0;
+            }
+        }
+    }
+    .fotosIndexPanel {
+        padding: 1rem;           
+        display: flex;
+        justify-content: center;   
+        .fotoIndexPanelCarroucel{
+            width: 60rem;
+            h5{
+                font-size: 2rem ;
+                font-weight: bold;
+            }
+            p{
+                font-size: 1.4rem;
+            }
+        }
+    }    
+    .videoFabrica > iframe:hover {
+        transform: scale(110%);
+    }
+    .hsDeAtencion {
+        .caja{
+            padding: 1rem;
+            p {
+                font-size: 1.5rem;
+                text-align: center;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:500px) {
+    .fotosIndexPanel {
+        padding: 1rem;           
+        display: flex;
+        justify-content: center;   
+        .fotoIndexPanelCarroucel{
+            width: 60rem;
+            h5{
+                font-size: 1.4rem !important;
+                font-weight: bold;
+            }
+            p{
+                font-size: 1rem !important;
+                line-height: 1.2rem !important;
+            }
+        }
+    }
+    .section_div{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }  
+}

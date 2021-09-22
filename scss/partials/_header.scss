@@ -1,0 +1,50 @@
+
+.cabecera {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../imagenes/portadasin.png);
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+    .navegador {
+        height: auto;
+        background-color:transparent !important;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        position: sticky;
+        top: 0;
+        ul {
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 2rem;
+            li{
+                position: relative;
+                padding: 1rem;
+                
+                
+                a{
+                    display: block;
+                    padding: 5px 5px;
+                    color:white ;
+                    text-decoration: none;
+                    transition: ease-in 0.5s;
+                    font-size: 3rem;
+                    font-weight: bold;                    
+                }
+                
+                a:hover{
+                    color: rgb(233, 201, 201) ;
+                    border-bottom: 2px ridge black;                    
+                }                
+            }
+        }
+
+    }

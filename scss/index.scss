@@ -1,0 +1,81 @@
+@import './variables';
+@import './mixins';
+@import './globals';
+
+// Partials 
+@import './partials/header';
+@import './partials/footer';
+ 
+// Paginas
+@import './pages/home';
+// Locales
+@import './pages/locales';
+// Cerveza
+@import './pages/cerveza';
+// Tienda
+@import './pages/shop';
+// Contacto
+@import './pages/contactos';
+
+
+
+
+.boodyError {
+    background-image: url(../imagenes/portadasin.png);
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    margin: 20rem auto;
+    }
+    .error404 {
+    background-color: transparent;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    height: 30rem;
+    h1{
+        color: red;
+        font-size: 10rem;
+    }
+    p{
+        font-size: 2rem;
+        font-weight: bold;
+        text-align: center
+    }
+}
+// Media query
+@import './partials/med-que.scss';
+
+
+
+
+
+
+
+
+
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+    
+   
+
+
+
+
+

@@ -1,0 +1,114 @@
+/*SHOP*/
+
+.infoYValor{
+    padding: 10rem 0;
+    width: 100vw;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    gap: 1rem;
+    table{
+        width: 50%;
+    }
+}
+
+
+.shop {
+    background-color: rgba(255, 255, 255, 0.474);
+    padding: 2.5rem 0;
+    border: 4px double black;
+    font-size: 1.6rem;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    font-family: serif;
+    .datosComprador{
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        border-right: 5px solid black;
+        input{
+            box-shadow: 2px 2px rgba(0, 0, 0, 0.254);
+
+        }
+    }
+    .pedido{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 0.5rem;
+        width: 100%;
+        label, input{
+             width: auto;
+             display: inline;
+     
+        }
+        
+        .input1{
+            width: 50%;
+        }
+        
+    }
+    &__botones{
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        gap: 1rem;
+        input {
+            background-color: blue;
+            width: 50%;
+        }
+    }
+    
+}
+    .pedido1 {
+        padding: 2rem;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem; 
+        gap: 0.3rem;  
+    }
+
+    .entrega1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 5rem 0;
+        .entrega{
+            padding: 0.5rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            width: 30rem;
+            height: 20rem;
+            align-items: center;
+            text-align: center;
+            border-top: 2px solid black ;
+            box-shadow: 0.5rem 0.5rem rgba(0, 0, 0, 0.35);
+            
+        .imgEntrega {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            }
+        .pEntrega {
+            text-align: center;
+            .titleHsDs {
+                font-size: 2rem;
+                font-weight: bold;
+                color: rgba(223, 197, 49, 0.901);
+            }
+            p{
+                font-size: 1.6rem;
+            }
+        }
+    }   
+}

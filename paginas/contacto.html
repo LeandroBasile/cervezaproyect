@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../imagenes/lupulo.png">  
+    <title>Cerveza-Proyect-CONTACTO</title>
+    <meta name="keywords" content="cerveceria,cerveza,artesanal,distribuidor,fabrica,contacto">
+    <meta name="description" content="Se pueden contacta con nosotros para realizar cualquier consulta">
+    <meta name="author" content="Leandro Basile">
+    <meta name="copyright" content="Cerveceria-proyect SA">
+    <meta name="robots" content="index">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+    <header class="cabecera">
+        <nav class="navegador">
+          <ul>
+            <li>
+              <a href="../index.html">Inicio </a>
+            </li>
+            <li >
+              <a  href="locales.html">Locales</a>
+            </li>
+            <li> 
+              <a  href="cervezas.html">
+                <img src="../imagenes/lupulo.png" alt="">
+              </a>
+            <li>
+              <a  href="shop.html">Tienda</a>
+            </li>
+            <li >
+              <a  href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+          </nav>
+      </header>
+    <main>
+        <H1>Contacto</H1>
+        <section class="contactoSection">           
+            <form id="contactoPag" action="">
+                <div class="parte1Consulta"></div>
+                    <div class="nombre">
+                        <input type="text" name="name" placeholder="Nombre">
+                    </div><br>
+                    <div class="apellido">
+                        <input type="text" name="lastname" placeholder="Apellido">
+                    </div><br>
+                    <div class="email">
+                        <input type="email" name="email" placeholder="@">
+                    </div><br>
+                    <select name="opciones de contacto" id="">
+                        <option value="0">Motivo de contacto</option>
+                        <option value="1">No recibi mi pedido</option>
+                        <option value="2">Ingresé mal los datos</option>
+                        <option value="3">Quiero cancelar mi pedido</option>
+                        <option value="4">Eventos</option>
+                        <option value="5">Queremos vender su producto en nuestro local</option>
+                    </select>
+                    <div>
+                        <textarea name="text" id="" cols="30" rows="10"></textarea>
+                    </div><br>
+                    <div class="botones">
+                        <input class="btn btn-primary" type="submit" value="ENVIAR">                
+                        <input class="btn btn-primary" type="reset" value="RESTABLECER"> 
+                    </div>
+                </div>
+            </form><br>
+            <div class="redesContacto">
+                <ul class="redes">
+                    <h3 class="title">Nuestras Redes:</h3>
+                    <li class="instagram">
+                        <a href="">@cervezaProyect</a>
+                    </li><br>
+                    <li class="facebook">    
+                        <a href="">Cerveza Proyect</a>
+                    </li><br>
+                    <li class="twitter">    
+                        <a href="">#Cerveza Proyect</a>
+                    </li>
+                </ul>
+                <div class="datos">
+                    <h3 class="title">Contactanos:</h3>
+                    <a href="../paginas/contacto.html"><p>Cerveza-proyect@proyecto.com</p></a>
+                    <p>5555-5555</p>
+                </div>  
+            </div>
+        </section>
+    </main>
+    <footer class="pie">
+        <div class="pie__footer">    
+          <div class="datos">
+            <h3 class="title">Contactanos:</h3>
+            <ul class="datos_ul">
+              <li class="ul_email">
+                <a href="../paginas/contacto.html">Cerveza-proyect@proyecto.com</a>
+              </li><br>
+              <li class="ul_tel">
+                <a href="../paginas/contacto.html">5555-5555</a>
+              </li>
+            </ul>
+          </div>
+          <ul class="redes">
+            <h3 class="title">Nuestras Redes:</h3>
+              <li class="instagram">
+                <a href="">@cervezaProyect</a>
+              </li><br>
+              <li class="facebook">    
+                <a href="">Cerveza Proyect</a>
+              </li><br>
+              <li class="twitter">    
+                <a href="">#Cerveza Proyect</a>
+              </li>
+          </ul>               
+        </div>
+      </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>      
+</body>
+</html>

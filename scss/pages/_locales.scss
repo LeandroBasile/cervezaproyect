@@ -1,0 +1,74 @@
+/*LOCALES*/
+.centroRecarga{
+    width: 100%;
+    height: 35rem;
+    background-image: url(../imagenes/beer-tap-2435408_1920.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100vw 40rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 4rem auto;
+    border: 1px solid black;
+    box-shadow: 1rem 0 1rem rgba(0, 0, 0, 0.75);
+    h3{
+        color: rgba(255, 255, 255, 0.70);
+        font-size: 5rem;
+        font-weight: 700;
+        }
+
+}
+.sectionLocal {
+    
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    align-content: center;
+    gap: 7rem;
+    justify-content: center;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+    padding: 10rem 0;
+    .section_div{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 3rem;
+    }
+}
+
+.hsDeAtencion {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin: 10rem auto 10rem auto;
+    .horario, .servicio, .edad {
+        padding: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        width: 30rem;
+        height: 25rem;
+        align-items: center;
+        text-align: center;
+        border-top: 2px solid black ;
+        box-shadow: 0.5rem 0.5rem rgba(0, 0, 0, 0.35);
+        .titleHsDs {
+            font-size: 2rem;
+            color: rgba(223, 197, 49, 0.901);
+            font-weight: bold;
+        }
+        .divHsDs {
+        
+            font-size: 1.6rem;
+        }
+
+    }
+
+}
+  

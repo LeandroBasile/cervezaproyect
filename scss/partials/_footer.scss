@@ -1,0 +1,64 @@
+.pie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__footer {
+        padding: 5rem;
+        width: 100%;
+        background-color: #0a034be7;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        align-items: center;
+        color: black;
+        overflow: auto; 
+         .datos{
+            display: flex;
+            flex-flow:column;
+            align-content: center;
+            gap: 2rem;
+            
+        }
+        h3{
+            font-weight: bold;
+            text-align: center;
+        }
+        .datos_ul{
+            font-size: 2rem; 
+            text-decoration: none;
+            list-style-type: none;
+            a{
+                color: white;
+            }              
+        }
+        .ul_tel{
+            list-style-image: url(../imagenes/tel.png);
+        }
+        .ul_email{
+            list-style-image: url(../imagenes/email.png);
+        }
+         .redes{
+            li{
+            padding: 1rem;
+            font-size: 2.2rem;
+            list-style-type: none;
+            a{
+                color: whitesmoke;
+            }
+            
+        }
+        .instagram {
+        
+            list-style-image: url(../imagenes/instagram.png);
+            
+        }
+        .facebook {
+            list-style-image: url(../imagenes/facebook.png);
+        }
+        .twitter {
+            list-style-image: url(../imagenes/twitter.png);
+        }           
+        }
+    }
+
+}

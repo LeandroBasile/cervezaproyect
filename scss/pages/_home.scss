@@ -1,0 +1,50 @@
+.presentacion {
+    &__caroucel{
+        margin: 5rem 0 10rem;
+        max-width: 100%;
+        height: auto;
+        box-shadow: 7px 0 7px 0 rgba(0, 0, 0, 0.44);
+    }
+    &__colorDeNosotros{
+        margin-bottom: 2rem;
+        background-color: rgba(114, 111, 111, 0.22);
+        color:black;
+        font-weight: bold;
+        border-right: 1px solid black;
+        border-bottom: 1px solid black;
+        text-align: center;
+        box-shadow: 7px 0 7px 0 rgba(0, 0, 0, 0.44);
+    }
+}
+.caroucel__img {
+    img{
+        
+        height:auto;
+    }
+}   
+
+   
+    .fotosIndexPanel {
+        padding: 5rem 0;           
+        display: flex;
+        justify-content: center;   
+        .fotoIndexPanelCarroucel{
+            width: 60rem;
+            .carousel-caption {
+                background-color: rgba(255, 255, 255, 0.392);
+            }
+            
+            h5{
+                font-size: 2rem !important;
+                color: black ;
+                font-weight: bold;
+                text-decoration: underline;
+            }
+            p{
+                font-size: 1.6rem !important;
+                color: black;
+                font-weight: bold;
+                line-height: 2rem !important;
+            }
+            }
+    }
